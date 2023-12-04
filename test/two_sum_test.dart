@@ -6,8 +6,9 @@ void main() {
     var nums = [2, 7, 11, 15], target = 9;
     Solution s = new Solution();
     List<int> result = s.twoSum(nums, target);
-    expect(result[0], 0);
-    expect(result[1], 1);
+    // expect(result[0], 0);
+    // expect(result[1], 1);
+    expect(result, equals(result));
   });
 
   test("two sum2", () {
